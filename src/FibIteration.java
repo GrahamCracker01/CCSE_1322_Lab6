@@ -3,7 +3,6 @@
 //Term: Spring 2023
 //Name: Asher Graham
 
-import java.lang.Math;
 public class FibIteration implements FindFib{
 
     @Override
@@ -12,7 +11,7 @@ public class FibIteration implements FindFib{
             return 1;
         }
         else {
-            int first = 1, second = 1, solution = 1;
+            int first, second = 1, solution = 1;
             for (int i = 2; i < fib; i++) {
                 first = second;
                 second = solution;
